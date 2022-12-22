@@ -1,11 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BasicExample from './navbar';
+import ColorSchemesExample from './navbar';
+import UncontrolledExample from './carousel';
 
 function App() {
   return (
     <div>
-      <BasicExample/>
-    </div>
+    <div>
+      <ColorSchemesExample/>
+</div>
+<div><UncontrolledExample/></div>
+</div>   
+
+
   );
 }
 
