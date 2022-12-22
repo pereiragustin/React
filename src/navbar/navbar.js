@@ -7,7 +7,7 @@ function ColorSchemesExample() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Inicio</Navbar.Brand>
+          <Navbar.Brand href="#home" to='./navbar/inicio.js'  >Inicio</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Ver Menu</Nav.Link>
             <Nav.Link href="#features">Quienes somos</Nav.Link>

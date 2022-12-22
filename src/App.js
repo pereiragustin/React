@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ColorSchemesExample from './navbar';
-import UncontrolledExample from './carousel';
+import ColorSchemesExample from './navbar/navbar';
+import Carousel from './Carousel';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
     <div>
       <ColorSchemesExample/>
 </div>
-<div><UncontrolledExample/></div>
+<div><Carousel/></div>
 </div>   
 
 
