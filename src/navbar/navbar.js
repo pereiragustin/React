@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
+
 
 function ColorSchemesExample() {
   return (
@@ -9,12 +11,12 @@ function ColorSchemesExample() {
         <Container>
           <Navbar.Brand href="#home" to='./navbar/inicio.js'  >Inicio</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Ver Menu</Nav.Link>
-            <Nav.Link href="#features">Quienes somos</Nav.Link>
-            <Nav.Link href="#pricing">Contacto</Nav.Link>
+            <Nav.Link href="/verMenu">Ver Menu</Nav.Link>
+            <Nav.Link href="/QuienesSomos">Quienes somos</Nav.Link>
+            <Nav.Link href="/Contacto">Contacto</Nav.Link>
           </Nav>
         </Container>
-      </Navbar>
+      </Navbar>;
     </>
   );
 }
