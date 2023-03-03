@@ -6,9 +6,8 @@ import { ImPriceTag } from "react-icons/im";
 
 
 
-
-
-function ItemList({ Productos }) {
+// aqui en vez de function iria CONST
+const ItemList = ( { productos } ) => {
 
 
     
@@ -32,21 +31,20 @@ function ItemList({ Productos }) {
             <h2>Menu  Burger <FaHamburger/> Bar </h2>
 
             <section className="menus">
-                {Productos.map((prod => (
+                {productos.map((prod => (
                     <div key={prod.id} className="col-6">
                         <br></br>
                         <hr></hr>
-                        
                         <img src={prod.image} alt={prod.name} />
                         <br></br>
                         <br></br>
                         <h4><FaHamburger/> {prod.name}</h4>
                         <p><FaCheckSquare/>  {prod.description}</p>
                         <p><ImPriceTag/> Precio $: <b>{prod.price}</b></p>
-                        <button className="btn btn-secondary" onClick={sumar}>Agregar </button>
-                        <button className="btn btn-dark" color="#0000" onClick={restar}>Eliminar</button>
+                        <button className="btn btn-secondary" onClick={sumar}>VER MAS </button>
+                        <p>categoria: {prod.category}</p>
                         <p>Cantidad {counter}</p>
-
+                        
                     </div>
                     // manera de que react modifique el counter al seleccionar mi pedido y darle click a "la quiero" usamos control de estado
                 )))}

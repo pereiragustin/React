@@ -10,3 +10,22 @@ export const pedirDatos = () => {
         }, 1500)
     })
 }
+
+
+export const pedirItemPorId = (id) => {
+    return new Promise((resolve, reject) => {
+        setTimeout( () => {
+            const item = MOCK_DATA.find((el) => el.id === id)
+
+            if (item) {
+                resolve(item)
+            } else {
+                reject({
+                    error: 'No se encontró ese producto'
+                })
+            }
+        }, 500)
+    })
+}
+
+export default pedirDatos

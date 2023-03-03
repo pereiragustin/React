@@ -1,17 +1,102 @@
-[{"id":1,"name":"Burger De la casa","description":"250 gm carne vacuna, palta, cebolla, salsa especial al ajillo.","category":"Burger","image":"./img/img1h.jpg","price":429},
-{"id":2,"name":"Burger Egg","description":"250 gm carne vacuna, huevo frito, salsas agregadas, lechuga y tomate.","category":"Burger","image":"./img/img2h.jpg","price":550},
-{"id":3,"name":"Burger Bacon","description":"250 gm carne vacuna, extra bacon, cheddar, lechuga tomate y salsa de la casa .","category":"Burger","image":"./img/img3h.jpg","price":412},
-{"id":4,"name":"Doble Burger","description":"2 carnes de 200 gm carne vacuna, lechuga tomate, cheddar y pepinillo","category":"Burger","image":"./img/img4h.jpg","price":562},
-{"id":5,"name":"Bomb Burger","description":"300 gm carne vacuna, tomate albahaca, cheddar, huevo frito","category":"Burger","image":"./img/img2h.jpg","price":405},
-{"id":6,"name":"Doble Burger, PROMOCION","description":"2 Burger, a eleccion 3 gustos, incluye lechuga y tomate.","category":"Compartir","image":"./img/img7.jpg","price":800},
-{"id":7,"name":"Promo kids 2","description":"200 gm carne bacuna, 3 gustos a eleccion (incluye papas)","category":"Compartir","image":"./img/img10.jpg","price":588},
-{"id":8,"name":" Papas Bacon","description":"Papas Fritas con extra bacon","category":"Compartir","image":"./img/img8.jpg","price":470},
-{"id":9,"name":"Picada Feliz","description":"Noissete, Papas caseras, Caritas y mix de salsas","category":"Compartir","image":"./img/picada.jpg","price":635},
-{"id":10,"name":"Sprite","description":"600 ml","category":"Bebida","image":"./img/sprite.jpg","price":90},
-{"id":11,"name":"Coca Cola ","description":"600ml ","category":"Bebida","image":"./img/coca1.jpg","price":90},
-{"id":12,"name":"Coca Cola ","description":"1 litro light","category":"Bebida","image":"/img/coca2.jpg","price":150},
-{"id":13,"name":"Cerveza Pilsen","description":"1litro","category":"Bebida","image":"./img/Pilsen.jpg","price":180},
-{"id":14,"name":"Agua Salus","description":"600 Ml ","category":"Bebida","image":"./img/Salus.jpg","price":60},
-{"id":15,"name":"Veggie Burger Quinoa","description":"Lechuga tomate, albahaca, mix frutos verdes, ","category":"Veggie","image":"./img/veggie.jpg","price":450},
-{"id":16,"name":"Veggie Burger Mix","description":"Mix salsas, tomate lechuga, rucula, humus garbanzos", "category":"Veggie","image":"./img/veggie2.jpg","price":550}
+[{"id":1,
+"name":"Burger De la casa",
+"description":"250 gm carne vacuna, palta, cebolla, salsa especial al ajillo.",
+"category":"Burger",
+"image":"./img/img1h.jpg",
+"stock":20,
+"price":429
+},
+{"id":2,
+"name":"Burger Egg",
+"stock":20,
+"description":"250 gm carne vacuna, huevo frito, salsas agregadas, lechuga y tomate.",
+"category":"Burger",
+"image":"./img/img2h.jpg",
+"price":550
+},
+{"id":3,
+"name":"Burger Bacon",
+"stock":20,
+"description":"250 gm carne vacuna, extra bacon, cheddar, lechuga tomate y salsa de la casa .",
+"category":"Burger",
+"image":"./img/img3h.jpg",
+"price":412
+},
+
+{"id":4,
+"name":"Doble Burger",
+"stock":20,
+"description":"2 carnes de 200 gm carne vacuna, lechuga tomate, cheddar y pepinillo",
+"category":"Burger",
+"image":"./img/img4h.jpg",
+"price":562
+},
+
+{"id":5,
+"name":"Bomb Burger",
+"stock":20,
+"description":"300 gm carne vacuna, tomate albahaca, cheddar, huevo frito",
+"category":"Burger",
+"image":"./img/img2h.jpg",
+"price":405
+},
+
+{"id":6,
+"name":"Doble Burger, PROMOCION",
+"stock":20,
+"description":"2 Burger, a eleccion 3 gustos, incluye lechuga y tomate.",
+"category":"Compartir",
+"image":"./img/img7.jpg",
+"price":800
+},
+
+{"id":7,
+"name":"Promo kids 2",
+"stock":20,
+"description":"200 gm carne bacuna, 3 gustos a eleccion (incluye papas)",
+"category":"Compartir",
+"image":"./img/img10.jpg",
+"price":588
+},
+
+{"id":8,
+"name":" Papas Bacon",
+"stock":20,
+"description":"Papas Fritas con extra bacon",
+"category":"Compartir",
+"image":"./img/img8.jpg",
+"price":470
+},
+
+{"id":9,
+"name":"Picada Feliz",
+"stock":20,
+"description":"Noissete, Papas caseras, Caritas y mix de salsas",
+"category":"Compartir",
+"image":"./img/picada.jpg",
+"price":635
+},
+
+{"id":10,
+"name":"Sprite",
+"stock":20,
+"description":"600 ml",
+"category":"Bebida",
+"image":"./img/sprite.jpg",
+"price":90
+},
+
+{"id":11,"name":"Coca Cola",
+"stock":20,
+"description":"600ml ",
+"category":"Bebida",
+"image":"./img/coca1.jpg",
+"price":90
+},
+
+{"id":12,"name":"Coca Cola","stock":20,"description":"1 litro light","category":"Bebida","image":"/img/coca2.jpg","price":150},
+{"id":13,"name":"Cerveza Pilsen","stock":20,"description":"1litro","category":"Bebida","image":"./img/Pilsen.jpg","price":180},
+{"id":14,"name":"Agua Salus","stock":20,"description":"600 Ml ","category":"Bebida","image":"./img/Salus.jpg","price":60},
+{"id":15,"name":"Veggie Burger Quinoa","stock":20,"description":"Lechuga tomate, albahaca, mix  verdes, ","category":"Veggie","image":"./img/veggie.jpg","price":450},
+{"id":16,"name":"Veggie Burger Mix","stock":20,"description":"Mix salsas, tomate lechuga, rucula, humus garbanzos", "category":"Veggie","image":"./img/veggie2.jpg","price":550}
 ]

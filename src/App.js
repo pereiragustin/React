@@ -3,8 +3,9 @@ import ColorSchemesExample from './navbar/navbar';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import UncontrolledExample from './componentes/Carousel';
-import  QuienesSomos from './navbar/QuienesSomos'
+import  QuienesSomos from './navbar/QuienesSomos' 
 import Contacto from './navbar/Contacto';
+import Checkout from './componentes/Checkout/Chekout';
 
 
 
@@ -15,15 +16,19 @@ function App() {
   return (
 
 
-    <BrowserRouter>
+    <BrowserRouter> 
 < ColorSchemesExample />
 <UncontrolledExample/>
 
 <Routes>
-<Route path = "/QuienesSomos" element={ <QuienesSomos/>} />
-<Route path = "/verMenu/:category" element={ <ItemListContainer/>} />
 <Route path = "/Contacto" element={ <Contacto/>} />
-<Route path = "*"  element={ <ItemListContainer/>}/>
+<Route path = "/QuienesSomos" element={ <QuienesSomos/>} />
+<Route path = "/productos/:categoryId" element={ <ItemListContainer/>} />
+<Route path = "/"  element={ <ItemListContainer/>}/> 
+<Route path = "*" element={ <Navigate to={"/"}/> }/>
+<Route path = "/Checkout" element={ <Checkout/> }/>
+
+
 
 </Routes>
 
